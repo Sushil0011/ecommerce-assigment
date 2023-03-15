@@ -1,0 +1,159 @@
+.home{
+
+    //   Home container
+background-color: #0C0C0C;
+
+color: white;
+height: 100%;
+margin: 0 auto;
+padding-top: 9rem;
+width: 1280px;
+overflow-x: hidden;
+padding-bottom:311px;
+
+
+
+
+// Product container
+.itemWrapper{
+
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding:0 0 0 32px;
+gap: 58px;
+width: 1303px;
+height: 130px;
+
+
+
+& :last-child{
+    >h2{
+            margin-left: -2px;
+    }
+}
+}
+
+
+
+
+//  Product Title and cart
+
+.productsection{
+    width: 1214.67px;
+height: 20px;
+margin:0 auto;
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+
+.productType{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+// width: 151px;
+height: 20px;
+
+
+.dot{
+    display: flex;
+    height: 5px ;
+    width: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+    span:first-child{
+        width: 41px;
+height: 20px;
+
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+// display: flex;
+// align-items: center;
+letter-spacing: 0.1em;
+
+color: #E5DFD9;
+
+    }
+
+    span:last-child{
+        width: 89px;
+height: 20px;
+
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.1em;
+margin-right: 5px;
+
+color: #E5DFD9;
+
+    }
+}
+
+
+
+
+
+.productCount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    >p{
+        font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.1em;
+color: #E5DFD9;
+
+    }
+
+
+
+}
+}
+
+
+
+// Product card section
+
+.cardWrapper{
+
+    width: 1216.6px;
+    padding: 0 10px;
+height: 864px;
+margin: 0 auto;
+margin-top: 50px;
+justify-content: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+row-gap: 50px;
+column-gap: 24px;
+
+
+
+
+
+
+
+}
+
+
+
+}

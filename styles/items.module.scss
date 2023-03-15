@@ -1,0 +1,27 @@
+.items{
+
+display: flex;
+width: 90px;
+height: 90px;
+flex-direction: column;
+
+gap: 1rem;
+
+    .name{
+
+    width: 113px;
+height: 16px;
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+justify-content: center;
+color: #E5DFD9;
+margin-left:-9px;
+    }
+
+}
