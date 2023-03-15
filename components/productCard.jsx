@@ -22,7 +22,7 @@ console.log(title)
         <h3> &#8377;{offerprice}</h3>
 
         <div className={styles.price}><del>{price}</del> <p>( 50% Off )</p></div>
-        <Image src={cartbag} height={43} width={35} alt="cartBag"  style={{color:"white",objectFit:"contain"}}/>
+        <Image src={cartbag} height={43} width={35} alt="cartBag" />
  
       </div>
 

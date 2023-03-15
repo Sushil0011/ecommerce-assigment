@@ -56,7 +56,8 @@
 
         .priceContainer {
             display: flex;
-            justify-content: space-between;
+            // justify-content: space-between;
+            gap: 5px;
 
             >h3 {
                 font-family: 'Encode Sans';
