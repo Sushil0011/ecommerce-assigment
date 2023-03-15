@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/header.module.scss'
 import Image from 'next/image'
-import MenuIcon from '@mui/icons-material/Menu';
 const Header = () => {
   return (
 
@@ -16,9 +15,8 @@ const Header = () => {
 <div  className={styles.icons}>
 <Image src='/search.png' width={18} height={18}  alt=""/>
 <Image src='/user-alt.png' width={18} height={18}  alt=""/>
-<Image src='/bookmark.png' width={18} height={18} alt=""/>
+<Image src='/menubookmark.png' width={18} height={18} alt=""/>
 <Image src='/shopping-bag.png' width={18} height={18} alt=""/>
-<MenuIcon    className={styles.menuOpen} />
 
 
 </div>
