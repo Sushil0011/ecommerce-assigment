@@ -11,26 +11,6 @@ This is a web based ecommerce project .The technology which is used for the proj
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
-## Getting Started
-First run the developmemt server:
-```bash
-npm run dev
-
-# or
-
-yarn dev
-```
-open http://localhost:3000 with your browser to see 
-
-the result.
-
-You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
-
-API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in pages/api/hello.js.
-
-The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
-
-
 ## Run Locally
 
 Clone the project
@@ -56,6 +36,26 @@ Start the server
 ```bash
   npm run dev
 ```
+
+
+## Getting Started
+First run the developmemt server:
+```bash
+npm run dev
+
+# or
+
+yarn dev
+```
+open http://localhost:3000 with your browser to see 
+
+the result.
+
+You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
+
+API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in pages/api/hello.js.
+
+The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
 
 
 ## API Reference
